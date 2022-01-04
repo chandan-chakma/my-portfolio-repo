@@ -15,7 +15,7 @@ h1{
 .header{
     color: orange;
 }
-section{
+.pera-section{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +38,38 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#third-section{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.color{
+    color: orange;
+}
+.gap{
+    padding-bottom: 20%;
+}
+.shadow{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;   
+ 
+}
+#border{
+    border-left: 5px solid;
+    border-image:linear-gradient(blue, cyan) ;
+    border-image-slice: 1;
+
+
+}
+#simana{
+    border-left: 5px solid red;
+    
+}
+footer p{
+    text-align: center;
 }
