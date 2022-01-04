@@ -41,8 +41,9 @@ h1{
 }
 #third-section{
     background-image: url(image/exp-bg.png);
-    background-repeat: no-repeat;
     background-position: left;
+    background-repeat: no-repeat;
+    
 }
 .color{
     color: orange;
